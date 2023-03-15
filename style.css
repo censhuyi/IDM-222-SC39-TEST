@@ -124,6 +124,7 @@ section {
 	color: black;
 	border-radius: 4px;
 	transition: ease 0.4s;
+	text-transform: uppercase;
 }
 
 .home-btn:hover {
@@ -441,6 +442,87 @@ header .sticky {
 	width: 90%;
 }
 
+.work4 {
+	width: 100%;
+	text-align: center;
+}
+
+.work4 img {
+	margin: 1%;
+	width: 50%;
+}
+
+/*contact*/
+.contact-page {
+	width: 100%;
+	max-width: 1400px;
+	height: 100vh;
+	padding: 50px;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-wrap: wrap;
+	background-size: cover;
+	background-image: url(image/Office\ design-01.jpeg);
+}
+
+h5 {
+	width: 100%;
+	margin-top: 7rem;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 60px;
+	color: var(--bg-color);
+}
+
+.contact-info,
+.contact-form {
+	flex: 1;
+}
+
+.item {
+	margin-bottom: 24px;
+	font-size: 16px;
+	color: var(--bg-color);
+}
+
+.contact-form {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.textb {
+	width: calc(50% - 10px);
+	height: 50px;
+	padding: 12px;
+	background-color: var(--bg-color);
+	border: none;
+	margin-bottom: 20px;
+}
+
+textarea {
+	width: 100%;
+	min-height: 200px;
+	max-height: 400px;
+	resize: vertical;
+	padding: 12px;
+	background-color: var(--bg-color);
+	border: none;
+	margin-bottom: 20px;
+}
+
+@media screen and (max-width: 980px) {
+	.contact-page {
+		max-width: 800px;
+	}
+
+	h5 {
+		font-size: 40px;
+		margin-bottom: 40px;
+	}
+}
+
 /* footer */
 #contact {
 	background: var(--main-color);
@@ -450,6 +532,7 @@ header .sticky {
 	display: flex;
 	flex-wrap: wrap;
 }
+
 .footer {
 	padding: 20px 0;
 }
