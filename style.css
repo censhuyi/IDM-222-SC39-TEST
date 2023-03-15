@@ -95,7 +95,7 @@ section {
 }
 
 .home-text h1 {
-	font-size: var(--big-font);
+	font-size: 60px;
 	line-height: 1.2;
 	color: var(--bg-color);
 	font-family: "Paytone One", sans-serif;
@@ -459,7 +459,7 @@ header .sticky {
 .end text p {
 	font-size: 10px;
 	color: var(--bg-color);
-	letter-spacing: 2px;
+	letter-spacing: 1px;
 }
 
 @media (max-width: 1400px) {
