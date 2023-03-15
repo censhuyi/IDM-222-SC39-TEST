@@ -392,7 +392,7 @@ header .sticky {
 
 /* office design page */
 .header2 {
-	margin: 200px 510px 50px 120px;
+	margin: 100px 510px 50px 120px;
 	padding: 30px 6%;
 }
 
@@ -463,7 +463,7 @@ header .sticky {
 	justify-content: center;
 	flex-wrap: wrap;
 	background-size: cover;
-	background-image: url(image/Office\ design-01.jpeg);
+	background-image: url(image/image1.jpg);
 }
 
 h5 {
