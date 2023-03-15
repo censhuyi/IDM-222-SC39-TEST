@@ -26,8 +26,13 @@ html {
 body {
 	background: var(--bg-color);
 	color: var(--text-color);
+	width: 100%;
 }
 
+/* .wrapper {
+	width: 90%;
+	margin: 0 auto;
+} */
 header {
 	position: fixed;
 	top: 0;
@@ -380,6 +385,54 @@ header .sticky {
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
 	}
+}
+
+/*restaurant design page*/
+
+/* office design page */
+.header2 {
+	margin: 200px 510px 50px 120px;
+	padding: 30px 6%;
+}
+
+.header2 p {
+	width: 100%;
+	margin-top: 10px;
+	padding: 5px 4%;
+}
+
+.work {
+	width: 100%;
+	text-align: center;
+}
+
+.work img {
+	margin: 1%;
+	width: 70%;
+}
+
+.header3 {
+	margin: 100px 0 80px 40px;
+}
+
+.work2 {
+	text-align: center;
+	width: 100%;
+}
+
+.work2 img {
+	margin: 1%;
+	width: 45%;
+}
+
+.work3 {
+	width: 100%;
+	text-align: center;
+}
+
+.work3 img {
+	margin: 1%;
+	width: 70%;
 }
 
 /* footer */
