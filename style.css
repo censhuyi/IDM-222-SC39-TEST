@@ -412,7 +412,13 @@ header .sticky {
 }
 
 .header3 {
+	padding: 30px 6%;
 	margin: 100px 0 80px 40px;
+}
+
+.header3 p {
+	width: 100%;
+	margin-top: 10px;
 }
 
 .work2 {
@@ -432,7 +438,7 @@ header .sticky {
 
 .work3 img {
 	margin: 1%;
-	width: 70%;
+	width: 90%;
 }
 
 /* footer */
