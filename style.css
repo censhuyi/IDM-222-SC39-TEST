@@ -464,7 +464,7 @@ header .sticky {
 	justify-content: center;
 	flex-wrap: wrap;
 	background-size: cover;
-	background-image: url(image/image1.jpg);
+	background-image: url(image/contact-780.png);
 }
 
 h5 {
@@ -473,7 +473,7 @@ h5 {
 	text-transform: uppercase;
 	text-align: center;
 	font-size: 60px;
-	color: var(--bg-color);
+	color: var(--text-color);
 }
 
 .contact-info,
@@ -483,8 +483,8 @@ h5 {
 
 .item {
 	margin-bottom: 24px;
-	font-size: 16px;
-	color: var(--bg-color);
+	font-size: 15px;
+	color: var(--text-color);
 }
 
 .contact-form {
