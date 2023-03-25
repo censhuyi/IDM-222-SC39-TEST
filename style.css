@@ -346,13 +346,13 @@ header .sticky {
 	font-size: 16px;
 	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-
+/* 
 .about-btns {
 	display: flex;
 	margin: 2rem 0;
-}
+} */
 
-.btn {
+/* .btn {
 	border: none;
 	font-size: 0.9rem;
 	text-transform: uppercase;
@@ -374,7 +374,7 @@ header .sticky {
 	background: #2c628b;
 	border-color: #2c628b;
 	color: #fff;
-}
+} */
 
 .about-para p {
 	font-weight: 300;
