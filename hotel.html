@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+		<title>Shuyi Cen's Portfolio</title>
+		<link rel="shortcut icon" type="image/png" href="./image/logo.png" />
+		<link rel="stylesheet" href="style.css" />
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,500;1,400;1,500&display=swap"
+			rel="stylesheet"
+		/>
+		<style>
+			.hotel {
+				align-items: center;
+				display: flex;
+				justify-content: center;
+				margin: 0 auto;
+				max-width: 1000px;
+			}
+		</style>
+	</head>
+	<body>
+		<!--header-->
+		<header>
+			<a href="index.html" class="logo">Shuyi Cen</a>
+			<div class="bx bx-menu" id="menu-icon">
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					width="24"
+					height="24"
+					viewBox="0 0 24 24"
+				>
+					<path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"></path>
+				</svg>
+			</div>
+
+			<ul class="navbar">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="gallery.html">Portfolio</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</header>
+		<!-- end header -->
+		<div class="header2">
+			<h1>Hotel Design</h1>
+			<p>Location: Boston</p>
+		</div>
+
+		<div class="hotel">
+			<picture>
+				<source media="(max-width: 650px)" srcset="image/9th-lounge-600.png" />
+				<source
+					media="(max-width: 1000px)"
+					srcset="image/9th-lounge-1000.png"
+				/>
+				<source
+					media="(max-width: 1550px)"
+					srcset="image/9th-lounge-1550.png"
+				/>
+				<img src="image/9th-lounge-1550.png" alt="hotel" />
+			</picture>
+		</div>
+		<div class="hotel">
+			<picture>
+				<source media="(max-width: 650px)" srcset="image/2th-lobby-600.png" />
+				<source media="(max-width: 1000px)" srcset="image/2th-lobby-1000.png" />
+				<source media="(max-width: 1550px)" srcset="image/2th-lobby-1550.png" />
+				<img src="image/2th-lobby-1550.png" alt="hotel" />
+			</picture>
+		</div>
+	</body>
+</html>
