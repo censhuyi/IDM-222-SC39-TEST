@@ -82,7 +82,6 @@ header {
 	cursor: pointer;
 	display: none;
 }
-
 section {
 	padding: 80px 18%;
 }
@@ -91,7 +90,7 @@ section {
 	position: relative;
 	width: 100%;
 	height: 100vh;
-	background-image: url("image/4.jpg");
+	background-image: url("image/background.png");
 	background-size: cover;
 	background-position: center;
 	display: grid;
@@ -351,6 +350,7 @@ header .sticky {
 	font-weight: 300;
 	padding: 0.5rem;
 	opacity: 0.8;
+	text-align: left;
 }
 
 @media screen and (min-width: 992px) {
@@ -405,6 +405,20 @@ header .sticky {
 .header3 p {
 	width: 100%;
 	margin-top: 10px;
+}
+
+.plan {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	margin: 1%;
+	max-width: 1000px;
+}
+
+.plan img {
+	height: auto;
+	width: 100%;
+	margin: 1%;
 }
 
 .work2 {
