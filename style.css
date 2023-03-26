@@ -411,14 +411,14 @@ header .sticky {
 	align-items: center;
 	display: flex;
 	justify-content: center;
-	margin: 1%;
+	margin: 0 auto;
 	max-width: 1000px;
 }
 
 .plan img {
 	height: auto;
 	width: 100%;
-	margin: 1%;
+	margin-top: 1%;
 }
 
 .work2 {
