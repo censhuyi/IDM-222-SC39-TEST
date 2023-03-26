@@ -346,35 +346,6 @@ header .sticky {
 	font-size: 16px;
 	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-/* 
-.about-btns {
-	display: flex;
-	margin: 2rem 0;
-} */
-
-/* .btn {
-	border: none;
-	font-size: 0.9rem;
-	text-transform: uppercase;
-	border: 2px solid #000;
-	border-radius: 20px;
-	padding: 0.55rem 0;
-	width: 130px;
-	font-weight: 600;
-	background: transparent;
-	margin: 0 0.5rem;
-	cursor: pointer;
-}
-
-.btn.btn-white {
-	transition: all 0.5s ease-in-out;
-}
-
-.btn.btn-white:hover {
-	background: #2c628b;
-	border-color: #2c628b;
-	color: #fff;
-} */
 
 .about-para p {
 	font-weight: 300;
@@ -389,7 +360,20 @@ header .sticky {
 	}
 }
 
-/*restaurant design page*/
+/*hotel design page*/
+.hotel {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+	max-width: 1000px;
+}
+
+.hotel img {
+	height: auto;
+	width: 100%;
+	margin: 1%;
+}
 
 /* office design page */
 .header2 {
